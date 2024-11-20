@@ -1,0 +1,48 @@
+git init
+
+git status
+
+git add <filename>
+git mv <oldfilename> <newfilename>
+git rm <filename>
+
+git commit
+git commit -m 'commit message'
+git commit -a # staging area kihagyása
+
+git commit --amend
+
+git tag <cimke> # címke létrehozása
+git tag # használt címkék listázása
+git tag -d <cimke> # címke törlése
+
+git reset --hard
+
+git stash save "message" # mentés
+
+git stash apply <azonosito> # azonosító nélkül az utolsó kommit
+
+git branch
+
+git branch -d <branchname>
+git branch -D <branchname> # nem mergelt branch törlése
+
+git fsck
+
+git reset
+
+git add -p
+
+git remote
+
+git remote add <name> <url>
+
+git remote rm <name>
+
+git remote rename <oldname> <newname>
+
+git clone <url>
+
+git pull <remotename> <branchname>
+
+git push <remotename> <branchname>
